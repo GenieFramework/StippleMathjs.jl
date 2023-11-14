@@ -75,6 +75,7 @@ up()
 
 ![Demo App](./docs/demo.png)
 
+The example app with a correct Manifest.toml is available on [StippleDemos.jl](https://github.com/GenieFramework/StippleDemos/tree/master/AdvancedExamples/StippleMathjsDemo)
 ### Note
 
 - Due to a current bug in Stipple you need to define `x0` and `y0` outside the loop in order to guarantee that z is of the correct type.
