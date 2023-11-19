@@ -9,9 +9,7 @@ Currently StippleMathjs is still under development and needs to be installed as 
 
 ```julia-repl
 julia> ]
-(StippleMathjsDemo) pkg> add https://github.com/GenieFramework/StippleMathjs.jl
-(StippleMathjsDemo) pkg> add Stipple#hh-revivers
-(StippleMathjsDemo) pkg> add https://github.com/hhaensel/Genie.jl.git#hh-revivers
+(@v1.9) pkg> add https://github.com/GenieFramework/StippleMathjs.jl
 ```
 
 # Example App
