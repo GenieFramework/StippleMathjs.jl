@@ -22,7 +22,7 @@ function deps()
             )
         end
 
-        script(js_add_reviver("math.reviver"))
+        script(Stipple.js_add_reviver("math.reviver"))
     ]
 end
 
