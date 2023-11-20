@@ -1,4 +1,4 @@
-            - name: Julia TagBot
+- name: Julia TagBot
   # You may pin to the exact commit or the version.
   # uses: JuliaRegistries/TagBot@4e2dfa4ac8ad1e1a0af1e03f8411855200fac8ce
   uses: JuliaRegistries/TagBot@v1.15.0
