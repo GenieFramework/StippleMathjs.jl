@@ -65,6 +65,6 @@ end
     @eval @test match(r"<script[^<]+math\.min\.js", payload).match == "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.0.0/math.min.js"
     @eval StippleMathjs.LOCAL_MATHJS[] = true
     @eval payload = string_get("http://127.0.0.1:$port")
-    @eval @test match(r"<script[^<]+math\.js", payload).match == "<script src=\"stipple.jl/master/assets/js/math.js"
+    @eval @test match(r"<script[^<]+math\.js", payload).match == "<script src=\"stipple.jl/$(Genie.Assets.package_version(Stipple))/assets/js/math.js"
     @test contains(payload, r"<script>Genie.WebChannels.subscriptionHandlers.push\(function\(event\) {\s+Genie.Revivers.addReviver\(math.reviver\);\s+}\);\s+</script>")
 end

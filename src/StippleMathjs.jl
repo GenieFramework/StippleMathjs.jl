@@ -12,7 +12,7 @@ function deps()
 
     [
         if LOCAL_MATHJS[]
-            script(src="$(Genie.config.base_path)stipple.jl/master/assets/js/math.js")
+            script(src="$(Genie.config.base_path)stipple.jl/$(Genie.Assets.package_version(Stipple))/assets/js/math.js")
         else
             script(
                 src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.0.0/math.min.js",
