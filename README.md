@@ -4,14 +4,6 @@ StippleMathjs adds [mathjs](https://mathjs.org/) to your [Stipple](https://githu
 
 Furthermore, it adds automatic conversion of all types of `Complex` numbers between server and client.
 
-# Installation
-Currently StippleMathjs is still under development and needs to be installed as follows:
-
-```julia-repl
-julia> ]
-(@v1.9) pkg> add https://github.com/GenieFramework/StippleMathjs.jl
-```
-
 # Example App
 
 ```julia
