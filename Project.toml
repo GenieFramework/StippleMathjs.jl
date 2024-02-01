@@ -1,7 +1,7 @@
 name = "StippleMathjs"
 uuid = "7fb1dcd0-db8f-4201-9509-3dea5d7792e9"
 authors = ["Helmut Hänsel <helmut.haensel@gmx.de>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
@@ -9,7 +9,7 @@ Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 
 [compat]
 Genie = "5.23.2"
-Stipple = "0.27.21"
+Stipple = "0.27.21, 0.28.0"
 julia = "1.6"
 
 [extras]
