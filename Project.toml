@@ -1,7 +1,7 @@
 name = "StippleMathjs"
 uuid = "7fb1dcd0-db8f-4201-9509-3dea5d7792e9"
 authors = ["Helmut Hänsel <helmut.haensel@gmx.de>"]
-version = "0.1.5"
+version = "1.0.0"
 
 [deps]
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
