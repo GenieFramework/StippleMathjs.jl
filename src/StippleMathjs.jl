@@ -36,8 +36,8 @@ function Stipple.jsrender(z::Complex, args...)
 end
 
 # parsing for incoming json payload
-Stipple.stipple_parse(::Type{Complex{T}}, z::Dict{String, Any}) where T = T(z["re"]) + T(z["im"]) * im
-Stipple.stipple_parse(::Type{Complex}, z::Dict{String, Any}) = z["re"] + z["im"] * im
+Stipple.stipple_parse(::Type{Complex{T}}, z::AbstractDict{String, Any}) where T = T(z["re"]) + T(z["im"]) * im
+Stipple.stipple_parse(::Type{Complex}, z::AbstractDict{String, Any}) = z["re"] + z["im"] * im
 
 # setup route and deps
 # function __init__()
