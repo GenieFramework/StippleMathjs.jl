@@ -1,9 +1,9 @@
 module StippleMathjs
 
 using Stipple
-using Genie
+using Stipple.Genie
 
-import Genie.Assets.add_fileroute
+import Stipple.Genie.Assets.add_fileroute
 
 const LOCAL_MATHJS = Ref(false)
 
